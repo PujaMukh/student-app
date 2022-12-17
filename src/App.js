@@ -1,18 +1,14 @@
 import StudentList from "./components/StudentList";
-import "./App.css";
+import ClassInfo from "./components/ClassInfo";
 
-const App = () => {
-  const name = "C18";
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ada's class</h1>
-      </header>
-      <main>
-        <StudentList />
-      </main>
-    </div>
+    <main>
+      <h1>Attendance</h1>
+      <ClassInfo></ClassInfo>
+      <StudentList></StudentList>
+    </main>
   );
-};
+}
 
 export default App;
